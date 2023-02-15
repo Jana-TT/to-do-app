@@ -16,6 +16,7 @@ const AddTodo = () => {
         const res = await response.json()
         router.push("/")
     }
+    
     return (
         <Fragment>
             <TodoForm addTodoHandler={addTodoHandler} />
